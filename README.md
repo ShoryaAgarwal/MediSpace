@@ -1,4 +1,4 @@
-# Project Title: MediSpace: Ai-Driven Drug Information Summaries and Blockchain Integration For Healthcare System
+# MediSpace: Ai-Driven Drug Information Summaries and Blockchain Integration For Healthcare System
 
 ## Objective
 <p align = "justify">
