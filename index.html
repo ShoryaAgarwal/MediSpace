@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MediSpace</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <meta property="og:title" content="Medica (Template 10)" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Poppins;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <style>
+      @keyframes fade-in-left {
+        0% {
+          opacity: 0;
+          transform: translateX(-20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+        
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+
+    <meta charset="utf-8">
+    <title>Chatbot in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="style239.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script239.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <!-- <header data-thq="thq-navbar" class="home-navbar ">  -->
+       
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(255, 255, 255); height: 115px;px;">
+          <style>
+           
+            #navigator{
+              --tw-shadow: 0 4px 6px -1px #dee2e6,0 4px 4px -2px rgb(0 0 0);
+              --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color),0 4px 4px -2px var(--tw-shadow-color);
+              box-shadow: var(--tw-ring-offset-shadow,0 0 #29272700),var(--tw-ring-shadow,0 0 #3e010100),var(--tw-shadow);
+              /* border-bottom-width: 1px; */
+              width: 100%;
+              display: flex;
+              flex-wrap: inherit;
+              align-items: center;
+              justify-content: space-between;
+              padding: auto;
+
+            }
+          </style>
+        
+          <div id="navigator" class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="public/Branding/updatedlogo.png" alt="Logo" width="180" height="100" class="d-inline-block align-text-top" >
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index1.html">Sign_in</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#how-it-works">Add prescription</a>
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+        
+        
+                <!-- <div id="navi-bar" data-thq="thq-navbar-btn-group" class="home-right">
+          <button class="home-phone button">
+            <img
+              alt="image"
+              src="public/Icons/phone.svg"
+              class="home-image06"
+            />
+            <span class="home-text06">+0 123-456-789</span>
+          </button>
+          <a href="#book" class="home-book button button-main">
+            <img
+              alt="image"
+              src="public/Icons/calendar.svg"
+              class="home-image07"
+            />
+            <span class="home-text07">Book an appointment</span>
+          </a>
+        </div> -->
+        <!-- </header> -->
+        
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+
+      <div class="home-container">
+        <div data-modal="practices" class="home-modal">
+          <div class="home-practices">
+            <div class="home-heading">
+              <h1>       </h1>
+              <span class="home-header">Our Advancing medical research.</span>
+              <svg
+                viewBox="0 0 1024 1024"
+                data-close="practices"
+                class="home-close"
+              >
+                <path
+                  d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                ></path>
+              </svg>
+            </div>
+            <div class="home-grid">
+              <div class="home-section">
+                <div class="home-heading01">
+                  <span class="home-header01">Cardiology</span>
+                  <span class="home-caption">
+                    Our understanding of cardiovascular health, disorders, and treatments...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image"
+                  />
+                </div>
+              </div>
+              <div class="home-section1">
+                <div class="home-heading02">
+                  <span class="home-header02">Orthopedics</span>
+                  <span class="home-caption1">
+                    Focus on advancing musculoskeletal health and well-being...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text01">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image01"
+                  />
+                </div>
+              </div>
+              <div class="home-section2">
+                <div class="home-heading03">
+                  <span class="home-header03">Ophtalmology</span>
+                  <span class="home-caption2">
+                    To improving vision health and addressing a range of eye-related conditions...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text02">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image02"
+                  />
+                </div>
+              </div>
+              <div class="home-section3">
+                <div class="home-heading04">
+                  <span class="home-header04">Pediatrics</span>
+                  <span class="home-caption3">
+                    Our aim is to advance our understanding of child health, growth, development, and diseases...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text03">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image03"
+                  />
+                </div>
+              </div>
+              <div class="home-section4">
+                <div class="home-heading05">
+                  <span class="home-header05">Nutrition</span>
+                  <span class="home-caption4">
+                    Focused on advancing our knowledge of dietary habits, nutritional requirements, and their impact on health...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text04">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image04"
+                  />
+                </div>
+              </div>
+              <div class="home-section5">
+                <div class="home-heading06">
+                  <span class="home-header06">General</span>
+                  <span class="home-caption5">
+                    Our general medical research is to advance understanding and knowledge across a broad spectrum of medical disciplines...
+                  </span>
+                </div>
+                <div class="read-more">
+                  <span class="home-text05">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image05"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-hero"> 
+          
+            <div data-thq="thq-burger-menu" class="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="home-icon1">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="home-mobile-menu">
+              <div
+                data-thq="thq-mobile-menu-nav"
+                data-role="Nav"
+                class="home-nav"
+              >
+                <div class="home-container1">
+                  <img
+                    alt="image"
+                    src="public/Branding/updatedlogo.png"
+                    class="home-image08"
+                  />
+                  <div data-thq="thq-close-menu" class="home-menu-close">
+                    <svg viewBox="0 0 1024 1024" class="home-icon3">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav
+                  data-thq="thq-mobile-menu-nav-links"
+                  data-role="Nav"
+                  class="home-nav1"
+                >
+                  <span class="home-text08">Features</span>
+                  <span class="home-text09">Add prescription</span>
+                  <span class="home-text10">Sign_in</span>
+                  <span class="home-text11">Disease Prediction</span>
+                  <a href="#book" class="home-book1 button button-main">
+                    <img
+                      alt="image"
+                      src="public/Icons/calendar.svg"
+                      class="home-image09"
+                    />
+                    <span class="home-text12">Book an appointment</span>
+                  </a>
+                </nav>
+              </div>
+            </div>
+          <!-- </header> -->
+          <div class="home-main">
+            
+            
+            <div class="home-content">
+              <h1>                      </h1>
+              <h1>                      </h1>
+              <h1>                      </h1>
+              
+              <div class="home-heading07">
+                <h1>             </h1>
+                <h1>             </h1>
+                <h1>             </h1>
+                <h1>             </h1>
+                <h1>             </h1>
+                <h1>             </h1>
+                <h1>             </h1>
+              
+                <div class="home-header07 box">
+                  <body>
+                    <p id="output"></p>
+                
+                    <script>
+                        // Function to display a word's characters one by one
+                        function displayWordCharactersOneByOne(word, delay) {
+                            let currentIndex = 0;
+                
+                            function displayNextCharacter() {
+                                if (currentIndex < word.length) {
+                                    const outputElement = document.getElementById('output');
+                                    outputElement.textContent += word[currentIndex];
+                                    currentIndex++;
+                                    setTimeout(displayNextCharacter, delay);
+                                }
+                            }
+                
+                            // Start displaying characters
+                            displayNextCharacter();
+                        }
+                
+                        // Call the function with your word and delay
+                        const word = "Universal Medicine Insights: Scan, Learn & Heal in Any Indian Language.";
+                        const delay =110; // Delay in milliseconds between each character
+                
+                        displayWordCharactersOneByOne(word, delay);
+                    </script>
+                </body>
+
+                    
+                </div>
+                <span> </span>
+                <span> </span>
+                <span> </span>
+                <p class="home-caption6">
+                  Experience the future of medicine information with MediSpace – your multilingual medical companion. Our innovative scanning technology transcends language barriers, enabling you to scan the name of any medicine in various Indian languages.
+                </p>
+              </div>
+              <!-- <link rel="stylesheet" href="./style123.css" />
+              <script src="script239.js" defer></script> -->
+              <button class="button button-main home-book2">
+                <img
+                  alt="image"
+                  src="public/Icons/newsearch.png"
+                  class="home-image10"
+                />
+                <a href="http://localhost:3000/">
+                <!-- <script src="./MediScanner/src/app/layout.tsx"></script>   -->
+                <span>Search</span></a>
+                
+              </button>
+              <!-- <button class="button button-main home-book2">
+                <img
+                  alt="image"
+                  src="public/Icons/newsearch.png"
+                  class="home-image10"
+                />
+                <a href="http://localhost:3000/">
+                <span>Scan</span></a>
+                
+              </button> -->
+            </div>
+            <div>
+              <h1>      </h1>
+              <h1>      </h1>
+              <h1>      </h1>
+              <h1>      </h1>
+              <h1>      </h1>
+              <h1>      </h1>
+            </div>
+            <div class="home-image11">
+
+              <img
+                alt="image"
+                src="public/doctor-image-1500w.png"
+                class="home-image12"
+              />
+              
+            <button id="send-button">
+              <style>
+                body {
+                    margin: 0;
+                    padding: 0;
+                    font-family: Arial, sans-serif;
+                    z-index: 100;
+                }
+                
+                #chatbot-container {
+                  position: fixed;
+                  bottom: 20px;
+                  right: 20px;
+                  z-index: 100;
+                  width: 350px;
+                  max-height: 80vh;
+                  overflow-y: auto;
+                  background-color: #fff;
+                  border: 1px solid #ccc;
+                  border-radius: 10px;
+                  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+                }
+        
+                #chat-header {
+                    background-color: #007bff;
+                    color: white;
+                    padding: 10px;
+                    z-index: 100;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+                }
+        
+                #chat-content {
+                    padding: 10px;
+                    color: white;
+                    background-color: red;
+                    z-index: 100;
+                }
+        
+                #user-input {
+                    width: 100%;
+                    padding: 10px;
+                    border: none;
+                    border-top: 1px solid #ccc;
+                    outline: 2px solid olivedrab;
+                }
+                #custom-button {
+                  padding: 10px 20px;
+                  background-color: #007bff;
+                  color: white;
+                  border: 2px solid #007bff;
+                  border-radius: 5px;
+                  cursor: pointer;
+                }
+            </style>
+
+            
+            </button>
+    
+            
+          </div>
+            
+          </div>
+          
+          <div id="features" class="home-features">
+            <div class="home-content01">
+              <div class="features-section quick-links">
+                <div class="features-heading">
+                  <h3 class="features-header">
+                    <span>Scan Medicine</span>
+                  </h3>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow.svg"
+                    class="features-icon"
+                  />
+                </div>
+                <p class="features-text">
+                  <span>
+                    Scan the medicine and retrieve concise information.
+                  </span>
+                </p>
+                <div class="features-divider"></div>
+              </div>
+              <div class="features-section quick-links">
+                <div class="features-heading">
+                  <h3 class="features-header"><a href="https://timesofindia.indiatimes.com/most-searched-products/health-and-fitness">
+                  <span>Latest news</span></h3></a>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow.svg"
+                    class="features-icon"
+                  />
+                </div>
+                <p class="features-text">
+                  <a href="https://timesofindia.indiatimes.com/most-searched-products/health-and-fitness">
+                  <span>
+                    Disseminating global health updates..
+                  </span></a>
+                </p>
+                <div class="features-divider"></div>
+                <div>
+                  
+                </div>
+              </div>
+              <div>
+                <div>
+                  <button class="chatbot-toggler">
+                    <span class="material-symbols-rounded">mode_comment</span>
+                    <span class="material-symbols-outlined">close</span>
+                  </button>
+                  <div class="chatbot">
+                    <header>
+                      <h2>MediSpace Chatbot</h2>
+                      <span class="close-btn material-symbols-outlined">close</span>
+                    </header>
+                    <ul class="chatbox">
+                      <li class="chat incoming">
+                        <span class="material-symbols-outlined">smart_toy</span>
+                        <p>Hi there 👋<br>How can I help you today?</p>
+                      </li>
+                    </ul>
+                    <div class="chat-input">
+                      <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                      <span id="send-btn" class="material-symbols-rounded">send</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="features-section quick-links">
+                <div class="features-heading">
+                  <h3 class="features-header"><a href="index1.html"><span>Clinical results</span></a></h3>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow.svg"
+                    class="features-icon"
+                  />
+                </div>
+                <p class="features-text">
+                  <a href="index1.html">
+                  <span>
+                    Aims to provide valuable insights.
+                  </span></a>
+                </p>
+                <div class="features-divider"></div>
+              </div>
+            </div>
+          </div>
+          <div class="home-background"></div>
+        </section>
+        <section class="home-practices1">
+          <div class="home-heading08">
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2>          </h2>
+            <h2 class="home-text14">Our Advancing medical research.</h2>
+            <p class="home-text15">
+              Contribute to the advancement of scientific knowledge and innovation.
+            </p>
+          </div>
+          <div class="home-content02">
+            <div class="home-grid1">
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h3 class="practice-header"><span>Cardiology</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          Our understanding of cardiovascular health, disorders, and treatments...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Cardiology" class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper1">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h2>          </h2>
+                      <h3 class="practice-header"><span>Orthopedics</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          Focus on advancing musculoskeletal health and well-being...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Orthopedic_surgery
+                      " class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper2">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h3 class="practice-header"><span>Ophtalmology</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          To improving vision health and addressing a range of eye-related conditions...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Ophthalmology
+                      " class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper3">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h3 class="practice-header"><span>Pediatrics</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          Our aim is to advance our understanding of child health, growth, development, and diseases...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Pediatrics" class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper4">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h3 class="practice-header"><span>Nutrition</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          Focused on advancing our knowledge of dietary habits, nutritional requirements, and their impact on health...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Nutrition" class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <!-- <a href="index.html"> -->
+                <div class="home-practice-wrapper5">
+                  <div class="practice-practice">
+                    <div class="practice-heading">
+                      <h3 class="practice-header"><span>General</span></h3>
+                      <p class="practice-caption">
+                        <span>
+                          Our general medical research is to advance understanding and knowledge across a broad spectrum of medical disciplines...
+                        </span>
+                      </p>
+                    </div>
+                    <div class="read-more" >
+                      <a href="https://en.wikipedia.org/wiki/Disease" class="read-more">
+                        <span class="practice-text">Read more </span>
+                        <img alt="image" src="public/Icons/arrow-2.svg" class="practice-image" />
+                    </a>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <button data-open="practices" class="button button-main">
+              <a href="https://careersinmedicine.aamc.org/explore-options/specialty-profiles">
+              <span>All practices</span></a>
+            </button>
+          </div>
+        </section>
+        <section id="how-it-works" class="home-why">
+          <!-- YAHA PE BLOCK CHAIN KA HOGA -->
+          <div class="home-section8">
+            <div class="home-content06">
+              <div class="home-header14">
+                <h2 class="home-heading12">
+                  Let's document the doctor's prescription.
+                </h2>
+                <p class="home-capton2">
+                  Security and Data Integrity <b>|</b> Decentralization <b>|</b> Easier Sharing and Interoperability
+                </p>
+              </div>
+              <button class="button button-main home-book3">
+                <span><a href="index1.html">SIGN IN</a></span>
+              </button>
+            </div>
+            <img
+              alt="image"
+              src="public/prescription.jpg"
+              class="home-image18"
+            />
+          </div>
+        </section>
+        <!-- <section class="home-features1">
+          
+          <div class="home-section7">
+            <div class="home-content05">
+              <div class="home-header13">
+                <h2 class="home-heading11">
+                  Get access to specialty tests and breakthrough information.
+                </h2>
+                <p class="home-capton1">
+                  Submit your prescription for review.
+                </p>
+              </div>
+              <div class="read-more">
+                <span class="home-text18">Find test</span>
+                <img
+                  alt="image"
+                  src="public/Icons/arrow-2.svg"
+                  class="home-image16"
+                />
+              </div>
+            </div>
+            <img alt="image" src="public/lab-1500w.png" class="home-image17" />
+          </div>
+          <button class="home-book4 button button-main">
+            <span>Book a virtual appointment</span>
+          </button>
+        </section> -->
+        
+          <!-- <div class="home-content07">
+            <div class="home-header15">
+              <h2 class="home-heading13">
+                Schedule an in person or virtual appointment today
+              </h2>
+              <p class="home-caption8">
+                Book a face-to-face or virtual appointment now.
+              </p>
+            </div>
+            <div class="home-types">
+              <a
+                href="#book"
+                class="home-book-person button button-main button-white"
+              >
+                <span>Book in person appointment</span>
+              </a>
+              <button class="button button-main button-white home-book-person1">
+                <span>Book virtual appointment</span>
+              </button>
+            </div>
+          </div> -->
+        </section>
+        <section id="schedule" class="home-schedule">
+          
+        </section>
+        <div class="home-search">
+          <div class="home-heading14">
+            <h2 class="home-text23">Search diseases &amp; conditions</h2>
+            <p class="home-text24">
+              To understand their symptoms, causes, treatments, and preventive measures for informed decision-making and health management.
+            </p>
+          </div>
+          <div class="home-content08">
+            <div class="home-type-one">
+              <div class="home-alphabet">
+                <div data-letter="a" class="letter">
+                  <a href="https://www.1mg.com/all-diseases">
+                  <span class="home-text25">A</span></a>
+                </div>
+                <div data-letter="b" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=b">
+                  <span class="home-text26">B</span>
+                  </a>
+                </div>
+                <div data-letter="c" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=c">
+                  <span class="home-text27">C</span></a>
+                </div>
+                <div data-letter="d" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=d">
+                  <span class="home-text28">D</span></a>
+                </div>
+                <div data-letter="e" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=e">
+                  <span class="home-text29">E</span></a>
+                </div>
+                <div data-letter="f" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=f">
+                  <span class="home-text30">F</span></a>
+                </div>
+                <div data-letter="g" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=g">
+                  <span class="home-text31">G</span></a>
+                </div>
+                <div data-letter="h" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=h">
+                  <span class="home-text32">H</span></a>
+                </div>
+                <div data-letter="i" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=i">
+                  <span class="home-text33">I</span></a>
+                </div>
+                <div data-letter="j" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=j">
+                  <span class="home-text34">J</span></a>
+                </div>
+                <div data-letter="k" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=k">
+                  <span class="home-text35">K</span></a>
+                </div>
+                <div data-letter="l" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=l">
+                  <span class="home-text36">L</span></a>
+                </div>
+                <div data-letter="m" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=">
+                  <span class="home-text37">M</span></a>
+                </div>
+                <div data-letter="n" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=n">
+                  <span class="home-text38">N</span></a>
+                </div>
+                <div data-letter="o" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=o">
+                  <span class="home-text39">O</span></a>
+                </div>
+                <div data-letter="p" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=p">
+                  <span class="home-text40">P</span></a>
+                </div>
+                <div data-letter="q" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=q">
+                  <span class="home-text41">Q</span></a>
+                </div>
+                <div data-letter="r" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=r">
+                  <span class="home-text42">R</span></a>
+                </div>
+                <div data-letter="s" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=s">
+                  <span class="home-text43">S</span></a>
+                </div>
+                <div data-letter="t" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=t">
+                  <span class="home-text44">T</span></a>
+                </div>
+                <div data-letter="u" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=u">
+                  <span class="home-text45">U</span></a>
+                </div>
+                <div data-letter="v" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=v">
+                  <span class="home-text46">V</span></a>
+                </div>
+                <div data-letter="w" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=w">
+                  <span class="home-text47">W</span></a>
+                </div>
+                <div data-letter="x" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=x">
+                  <span class="home-text48">X</span></a>
+                </div>
+                <div data-letter="y" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=y">
+                  <span class="home-text49">Y</span></a>
+                </div>
+                <div data-letter="z" class="letter">
+                  <a href="https://www.1mg.com/all-diseases?label=z">
+                  <span class="home-text50">Z</span>
+                  </a>
+                </div>
+              </div>
+              <p class="home-text51">
+                You don’t know it’s name? Check out symptom checker below
+              </p>
+              <div data-teleport="results" class="home-results">
+                <span class="home-heading15">Results:</span>
+                <div data-results="letters" class="home-list"></div>
+              </div>
+            </div>
+            <div class="home-type-two">
+              <div class="home-heading16">
+                <h3 class="home-text52">Symptom checker</h3>
+                <p class="home-text53">
+                  Symptom checker is to provide users with a reliable tool to assess and identify potential medical conditions based on the symptoms they input, facilitating informed healthcare decisions and appropriate actions.
+                </p>
+              </div>
+              <div class="home-symptoms">
+                <div class="home-row">
+                  <div class="symptom">
+                    <a href="https://medlineplus.gov/ency/article/003120.htm">
+                    <span class="home-text54">Abdominal pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.healthdirect.gov.au/chest-pain">
+                    <span class="home-text55">Chest pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://medlineplus.gov/ency/patientinstructions/000120.htm">
+                    <span class="home-text56">Constipation</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.pennmedicine.org/for-patients-and-visitors/patient-information/conditions-treated-a-to-z/cough">
+                    <span class="home-text57">Cough</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.mountsinai.org/health-library/symptoms/breathing-difficulty#:~:text=If%20your%20brain%2C%20muscles%2C%20or,of%20the%20lungs%20(pulmonary%20embolism)">
+                    <span class="home-text58">Breath difficulty</span></a>
+                  </div>
+                </div>
+                <div class="home-row1">
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/symptoms/17690-red-eye">
+                    <span class="home-text59">Red eye</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.healthline.com/health/foot-pain#treatment">
+                    <span class="home-text60">Foot pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.mayoclinic.org/symptom-checker/foot-swelling-or-leg-swelling-in-adults-adult/related-factors/itt-20009075">
+                    <span class="home-text61">Foot swelling</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/diseases/9639-headaches">
+                    <span class="home-text62">Headache</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://www.webmd.com/heart-disease/what-causes-heart-palpitations">
+                    <span class="home-text63">Heart palpitation</span></a>
+                  </div>
+                </div>
+                <div class="home-row2">
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/symptoms/21207-knee-pain">
+                    <span class="home-text64">Knee pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/symptoms/21118-hip-pain">
+                    <span class="home-text65">Hip pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/diseases/7936-lower-back-pain">
+                    <span class="home-text66">Low back pain</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/diseases/17980-nasal-congestion">
+                    <span class="home-text67">Nasal congestion</span></a>
+                  </div>
+                  <div class="symptom">
+                    <a href="https://my.clevelandclinic.org/health/symptoms/21179-neck-pain">
+                    <span class="home-text68">Neck pain</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <section id="book" class="home-book5">
+          <div class="home-heading17">
+            <h2 class="home-text69">Book an appointment</h2>
+            <p class="home-text70">
+              Consultation with a healthcare professional, ensuring timely access to medical advice and treatment.
+            </p>
+          </div>
+          <div class="home-form">
+            <div class="home-types1">
+              <div class="book-type">
+                <span class="home-text71">In person appointment</span>
+              </div>
+              <div class="book-type">
+                <span class="home-text72">Virtual appointment</span>
+              </div>
+            </div>
+            <div class="home-inputs">
+              <input
+                type="text"
+                placeholder="Name"
+                autocomplete="name"
+                class="input book-input"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                autocomplete="email"
+                class="input book-input"
+              />
+              <input
+                type="tel"
+                placeholder="Phone"
+                autocomplete="tel"
+                class="input book-input"
+              />
+              <div class="home-date">
+                <input
+                  type="date"
+                  placeholder="Date"
+                  class="input book-input"
+                />
+                <img
+                  alt="image"
+                  src="public/Icons/calendar-2.svg"
+                  class="home-image19"
+                />
+              </div>
+              <input
+                type="text"
+                placeholder="Practice"
+                class="input book-input"
+              />
+              <div class="home-lower">
+                <p class="home-text73">
+                  Ensure truthful details to maintain data integrity.
+                </p>
+                <div class="home-button">
+                  <button class="home-book6 button button-main">
+                    <span>Book</span>
+                  </button>
+                  <p class="home-text75">
+                    <span>By continuing you agree</span>
+                    <span class="home-text77">Terms of Service</span>
+                    <span>and</span>
+                    <span class="home-text79">Privacy Policy</span>
+                    <span>.</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section> -->
+        <section class="home-meet">
+          <div class="home-heading18">
+            <h2 class="home-text81">Meet best doctors</h2>
+            <p class="home-text82">
+              Enable patients to connect with medical professionals remotely, discuss medical concerns, receive expert guidance, and receive personalized treatment recommendations, thereby promoting health management, timely interventions, and patient-centric care.
+            </p>
+          </div>
+          <div class="home-list1">
+            <div class="home-controls">
+              <img
+                alt="image"
+                src="public/Icons/circle-arrow.svg"
+                data-doctors="previous"
+                class="arrow"
+              />
+              <img
+                alt="image"
+                src="public/Icons/circle-arrow.svg"
+                data-doctors="next"
+                class="home-forward arrow"
+              />
+            </div>
+            <div data-teleport="doctors" class="home-doctors">
+              <div class="doctor-doctor">
+                <img
+                  alt="image"
+                  src="public/Doctors/doctor-1-300w.png"
+                  class="doctor-image"
+                />
+                <div class="doctor-heading">
+                  <h2 class="doctor-text"><span>Dr. Ana Smith</span></h2>
+                  <p class="doctor-text1">
+                    <span>
+                      Group Medical Director - Max Healthcare & Senior Director - Institute of Internal Medicine
+                      Internal Medicine
+                      Experience: 28+ Years
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="doctor-doctor">
+                <img
+                  alt="image"
+                  src="public/Doctors/doctor-2-300w.png"
+                  class="doctor-image"
+                />
+                <div class="doctor-heading">
+                  <h2 class="doctor-text"><span>Dr. Audrey Smith</span></h2>
+                  <p class="doctor-text1">
+                    <span>
+                      Senior Director (Obstetrics & Gynaecology) & Head of Unit
+                      Obstetrics And Gynaecology
+                      Experience: 42+ Years
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="doctor-doctor">
+                <img
+                  alt="image"
+                  src="public/Doctors/doctor-3-300w.png"
+                  class="doctor-image"
+                />
+                <div class="doctor-heading">
+                  <h2 class="doctor-text"><span>Dr. Mary Jacobi</span></h2>
+                  <p class="doctor-text1">
+                    <span>
+                      Principal Director & Unit Head Cardiac Sciences, Cardiology, Interventional Cardiology
+                      Experience: 33+ Years
+
+
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="doctor-doctor">
+                <img
+                  alt="image"
+                  src="public/Doctors/doctor-4-300w.png"
+                  class="doctor-image"
+                />
+                <div class="doctor-heading">
+                  <h2 class="doctor-text"><span>Dr. Helen Taussig</span></h2>
+                  <p class="doctor-text1">
+                    <span>
+                      Principal Director - Nephrology Kidney Transplant, Nephrology
+                      Experience: 15+ Years
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-search1">
+            <button class="button button-main home-book7">
+              <a href="https://www.castleconnolly.com/">
+              <span>Search doctor</span></a>
+            </button>
+          </div>
+        </section>
+        <section class="home-news">
+          <div class="home-heading19">
+            <h2 class="home-text84">Read latest news</h2>
+            <p class="home-text85">
+              Align with its overall goals, values, and communication strategy.
+            </p>
+          </div>
+          <div class="home-list2">
+            <div class="home-item">
+              <div class="home-image20">
+                <img
+                  alt="image"
+                  src="public/Branding/updatedlogo.png" 
+                  width="300"
+                  height="700"
+                  class="home-image21"
+                />
+              </div>
+              <div class="home-content09">
+                <div class="home-details">
+                  <span class="home-date1">12 August 2023</span>
+                  <p class="home-quick-description">
+                    Providing medical-related news is to deliver timely and accurate information about healthcare advancements, research findings, treatment options, public health issues, and medical breakthroughs.
+                  </p>
+                </div>
+                <div class="read-more">
+                  <span class="home-text86">Read more</span>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow.svg"
+                    class="home-image22"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="home-item1">
+              <div class="home-image23">
+                <img
+                  alt="image"
+                  src="public/News/news-1-1500w.png"
+                  class="home-image24"
+                />
+              </div>
+              <div class="home-content10">
+                <div class="home-details1">
+                  <span class="home-date2">10 August 2023</span>
+                  <p class="home-quick-description1">
+                    WHO convenes first high-level global summit on traditional medicine to explore evidence base, opportunities to accelerate health for all.
+                  </p>
+                </div>
+                <div class="read-more">
+                  <a href="https://www.who.int/news/item/10-08-2023-who-convenes-first-high-level-global-summit-on-traditional-medicine-to-explore-evidence-base--opportunities-to-accelerate-health-for-all">
+                  <span class="home-text87">Read more</span></a>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image25"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="home-item2">
+              <div class="home-image26">
+                <img
+                  alt="image"
+                  src="public/News/news-2-1500w.png"
+                  class="home-image27"
+                />
+              </div>
+              <div class="home-content11">
+                <div class="home-details2">
+                  <span class="home-date3">2 August 2023</span>
+                  <p class="home-quick-description2">
+                    Technical Advisory Group on Arbovirus (TAG) meeting, Accra, Ghana.
+                  </p>
+                </div>
+                <div class="read-more">
+                  <a href="https://www.who.int/news/item/02-08-2023-technical-advisory-group-on-arbovirus-(tag)-meeting--accra--ghana">
+                  <span class="home-text88">Read more</span></a>
+                  <img
+                    alt="image"
+                    src="public/Icons/arrow-2.svg"
+                    class="home-image28"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="home-download">
+          <div class="home-main1">
+            <img
+              alt="image"
+              src="public/phone.png"
+              class="home-image29"
+            />
+            <div class="home-content12">
+              <h2 class="home-text89">
+                Download our mobile app.
+              </h2>
+              <div class="home-buttons">
+                <!-- <button class="home-i-os button button-main">
+                  <img
+                    alt="image"
+                    src="public/Icons/apple.svg"
+                    class="home-image30"
+                  />
+                  <span>Download for iOS</span>
+                </button> -->
+                <button class="button button-main home-android">
+                  <img
+                    alt="image"
+                    src="public/Icons/android.svg"
+                    class="home-image31"
+                  />
+                  <span>Download for Android</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-footer">
+          <div class="home-left1">
+            <div class="home-brand">
+              <a href="#">
+              <img
+                alt="image"
+                src="public/Branding/updatedlogo.png"
+                class="home-image32"
+                
+              /></a>
+              <p class="home-text92">
+                Experience the future of medicine information with MediSpace.
+              </p>
+            </div>
+            <div class="home-socials">
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/insider.svg"
+                  class="home-image33"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/instagram.svg"
+                  class="home-image34"
+                />
+              </div>
+              <div class="social">
+                <img
+                  alt="image"
+                  src="public/Icons/twitter.svg"
+                  class="home-image35"
+                />
+              </div>
+            </div>
+            <div class="home-legal">
+              <span class="home-copyright">
+                © 2023 All Rights Reserved.
+              </span>
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+          </div>
+          <!-- <div class="home-right1">
+            <div class="home-list3">
+              <span class="home-header16">Menu</span>
+              <div class="home-links1">
+                <span class="home-link04">Home</span>
+                <span class="home-link05">About</span>
+                <span class="home-link06">Services</span>
+                <span class="home-link07">Blog</span>
+                <span class="home-link08">Support</span>
+              </div>
+            </div>
+            <div class="home-list4">
+              <span class="home-header17">Resources</span>
+              <div class="home-links2">
+                <span class="home-link09">Test Results</span>
+                <span class="home-link10">Patients</span>
+                <span class="home-link11">Doctors</span>
+                <span class="home-link12">Health</span>
+              </div>
+            </div>
+            <div class="home-list5">
+              <span class="home-header18">Contact</span>
+              <div class="home-links3">
+                <span class="home-link13">
+                  IMSEC, Ghaziabad, Uttar Pradesh, Pincode-201015
+                </span>
+                <a
+                  href="mailto:vineet@medispace.com?subject=Main"
+                  class="home-link14"
+                >
+                vineet@medispace.com
+                </a>
+                <a href="tel:(004) 234 - 5678" class="home-link15">
+                  (091) 123 - 5678
+                </a>
+              </div>
+            </div>
+          </div> -->
+          <div class="home-legal1">
+            <div class="home-row3">
+              <span class="legal-link">Privacy Policy</span>
+              <span class="legal-link">Terms of Use</span>
+            </div>
+            <span class="home-copyright5">
+              © 2023 All Rights Reserved.
+            </span>
+          </div>
+        </div>
+        <div>
+          <dangerous-html
+            html="<script>
+const modalOpen = document.querySelectorAll('[data-open]');
+const modalClose = document.querySelectorAll('[data-close]');
+
+modalOpen.forEach(button => {
+    button.addEventListener('click', event => {
+        const modal = document.querySelector(`[data-modal='${event.target.dataset.open}']`);
+        modal.style.display = 'flex';
+    });
+});
+
+modalClose.forEach(button => {
+    button.addEventListener('click', event => {
+        const modal = document.querySelector(`[data-modal='${event.target.dataset.close}']`);
+        modal.style.display = 'none';
+    });
+});
+</script>
+"
+          ></dangerous-html>
+        </div>
+        <div>
+          <dangerous-html
+            html="<script>
+const dataLetters = document.querySelectorAll('[data-letter]');
+let activeLetters = [];
+const maxResults = 6;
+
+dataLetters.forEach(letter => {
+  letter.addEventListener('click', function() {
+    if (this.classList.contains('letter-active')) {
+      this.classList.remove('letter-active');
+      activeLetters = activeLetters.filter(a => a !== this.dataset.letter);
+    } else {
+      this.classList.add('letter-active');
+      activeLetters.push(this.dataset.letter);
+    }
+    if (activeLetters.length == 0) {
+      document.querySelector('[data-teleport='results']').style.display = 'none';
+      return;
+    }
+    showResults();
+  });
+});
+
+const showResults = () => {
+  fetch('https://raw.githubusercontent.com/Shivanshu-Gupta/web-scrapers/master/medical_ner/medicinenet-diseases.json')
+    .then(response => response.json())
+    .then(data => {
+      const filteredData = data.filter(item => {
+        const firstLetter = item.disease.charAt(0).toLowerCase();
+        if (activeLetters.includes(firstLetter)) {
+          return true;
+        }
+        return false;
+      });
+
+      document.querySelector('[data-teleport='results']').style.display = 'flex';
+      const resultsContainer = document.querySelector('[data-results='letters']');
+      resultsContainer.innerHTML = '';
+
+      let counter = 0;
+      const diseaseGroups = {};
+      const totalActiveLetters = activeLetters.length;
+
+      filteredData.forEach(disease => {
+        const firstLetter = disease.disease[0].toLowerCase();
+        if (diseaseGroups[firstLetter]) {
+          diseaseGroups[firstLetter].push(disease);
+        } else {
+          diseaseGroups[firstLetter] = [disease];
+        }
+      });
+
+      Object.keys(diseaseGroups).sort().forEach((firstLetter, index) => {
+        const diseasesForThisLetter = diseaseGroups[firstLetter];
+        const diseasesToShow = diseasesForThisLetter.slice(0, Math.ceil(maxResults / totalActiveLetters));
+
+        diseasesToShow.forEach(disease => {
+          const resultContainer = document.createElement('div');
+          resultContainer.classList.add('search-result');
+          resultContainer.classList.add('invisible');
+          resultContainer.style.animationDelay = `${counter * 0.25}s`;
+
+          const resultText = document.createElement('span');
+          resultText.classList.add('result-text');
+          resultText.textContent = disease.disease;
+
+          resultContainer.appendChild(resultText);
+          resultsContainer.appendChild(resultContainer);
+          counter++;
+
+          if (counter === maxResults) {
+            const moreContainer = document.createElement('div');
+            moreContainer.classList.add('search-result');
+            moreContainer.classList.add('more-results');
+
+            const moreText = document.createElement('span');
+            moreText.classList.add('result-text');
+            moreText.textContent = 'More';
+
+            moreContainer.appendChild(moreText);
+            resultsContainer.appendChild(moreContainer);
+            addedMoreContainer = true;
+            return;
+          }
+        });
+      });
+    });
+};
+</script>
+"
+          ></dangerous-html>
+        </div>
+        <div>
+          <dangerous-html
+            html="<script>
+function scroll(direction) {
+  const doctorsDiv = document.querySelector('[data-teleport='doctors']');
+  const scrollAmount = 300;
+  if (direction === 'previous') {
+    doctorsDiv.scrollBy({
+      left: -scrollAmount,
+      behavior: 'smooth'
+    });
+  } else if (direction === 'next') {
+    doctorsDiv.scrollBy({
+      left: scrollAmount,
+      behavior: 'smooth'
+    });
+  }
+}
+
+const buttons = document.querySelectorAll('[data-doctors]');
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const direction = button.dataset.doctors;
+    scroll(direction);
+  });
+});
+</script>"
+          ></dangerous-html>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script data-section-id="navbar">
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+</html>
